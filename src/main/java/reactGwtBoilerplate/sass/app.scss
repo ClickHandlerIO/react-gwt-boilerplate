@@ -1,0 +1,78 @@
+@import "variables";
+@import "flex-table";
+
+a,
+a:not([href]) {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 156, 170);
+}
+
+a:hover,
+a:hover:not([href]) {
+  color: rgb(0, 100, 115);
+  text-decoration: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: .25rem;
+
+  &:focus {
+    border-color: #66afe9;
+    outline: 0;
+  }
+}
+
+input::-webkit-input-placeholder {
+  font-weight: 300;
+}
+
+input:-moz-placeholder {
+  font-weight: 300;
+}
+
+input::-moz-placeholder {
+  font-weight: 300;
+}
+
+input:-ms-input-placeholder {
+  font-weight: 300;
+}
+
+.select2-selection__placeholder {
+  font-weight: 300;
+}
+
+//.gwt-DateBox {
+//  display: flex;
+//  width: auto;
+//}
+
+.select2-container {
+  color: #76838f;
+}
+
+.select2-container--open {
+  z-index: 2000;
+}
+
+.modal-body {
+  color: #76838f !important;
+
+  .form-group {
+    label {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
