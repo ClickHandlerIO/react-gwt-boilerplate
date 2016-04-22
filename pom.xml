@@ -20,9 +20,9 @@
         <name>YOUR ORG NAME HERE</name>
         <url>YOUR URL HERE</url>
     </organization>
-  
+
     <properties>
-	<react-gwt-boilerplate.version>0.1.0-SNAPSHOT</react-gwt-boilerplate.version>
+        <react-gwt-boilerplate.version>0.1.0-SNAPSHOT</react-gwt-boilerplate.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <react-gwt.version>0.2.0-SNAPSHOT</react-gwt.version>
