@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module rename-to="app">
+    <inherits name="io.clickhandler.ReactGwt"/>
+    <inherits name="io.clickhandler.ReactRouterGwt"/>
+    <inherits name="io.clickhandler.MomentGwt"/>
+    <!--<inherits name="io.clickhandler.MaterialUiGwt"/>-->
+    <!--<inherits name="io.clickhandler.Camber"/>-->
+
+    <source path="client"/>
+    <source path="resources"/>
+    <public path="public"/>
+
+    <entry-point class="reactGwtBoilerplate.client.AppEntryPoint"/>
+</module>
